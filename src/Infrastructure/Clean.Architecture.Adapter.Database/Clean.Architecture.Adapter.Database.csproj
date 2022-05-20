@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.0.123"/>
+        <PackageReference Include="EFCore.NamingConventions" Version="6.0.0"/>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.4"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Domain\Clean.Architecture.Core.Entities\Clean.Architecture.Core.Entities.csproj"/>
+        <ProjectReference Include="..\..\Application\Clean.Architecture.Core.Interfaces\Clean.Architecture.Core.Interfaces.csproj"/>
+    </ItemGroup>
+
+</Project>

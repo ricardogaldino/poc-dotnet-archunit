@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Domain\Clean.Architecture.Core.Entities\Clean.Architecture.Core.Entities.csproj"/>
+        <ProjectReference Include="..\..\Application\Clean.Architecture.Core.Interfaces\Clean.Architecture.Core.Interfaces.csproj"/>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>
